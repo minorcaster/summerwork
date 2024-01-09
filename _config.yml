@@ -4,7 +4,7 @@ description: 2023年度工作总结    # 一个简短的描述
 url: "https://yourusername.github.io" # 网站URL，确保替换为你的GitHub用户名
 
 # Build settings
-theme: minima                        # 使用minima主题，你可以换成你喜欢的其他主题
+theme: slate                        # 使用minima主题，你可以换成你喜欢的其他主题
 
 # Minima theme settings
 minima:
