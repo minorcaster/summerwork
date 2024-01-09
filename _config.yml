@@ -1,0 +1,31 @@
+# Site settings
+title: 2023工作总结           # 你的网站标题
+description: 2023年度工作总结    # 一个简短的描述
+url: "https://yourusername.github.io" # 网站URL，确保替换为你的GitHub用户名
+
+# Build settings
+theme: minima                        # 使用minima主题，你可以换成你喜欢的其他主题
+
+# Minima theme settings
+minima:
+  social_links:                     # 社交链接，你可以添加自己的社交媒体链接
+    twitter: jekyllrb
+    github:  jekyll
+    linkedin: jekyll
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list to override
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins (Uncomment to activate)
+# plugins:
+#   - jekyll-feed
+
+# 如果使用的是其他主题，可能还需要添加主题专用的配置选项。
