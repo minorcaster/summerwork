@@ -1,20 +1,16 @@
 # Site settings
-title: 2023工作总结           # 你的网站标题
-description: 2023年度工作总结    # 一个简短的描述
-url: "https://yourusername.github.io" # 网站URL，确保替换为你的GitHub用户名
+title: 2023工作总结             # 你的网站标题
+description: 2023年高鹏工作摘要     # 一个简短的描述
+url: "https://minorcaster.github.io" # 网站URL，确保替换为你的GitHub用户名
 
 # Build settings
-theme: slate                        # 使用minima主题，你可以换成你喜欢的其他主题
+remote_theme: pages-themes/slate      # 使用 Slate 主题
 
-# Minima theme settings
-minima:
-  social_links:                     # 社交链接，你可以添加自己的社交媒体链接
-    twitter: jekyllrb
-    github:  jekyll
-    linkedin: jekyll
+# Slate theme settings
+# 此处可以添加适用于Slate主题的特定配置选项
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list to override
+# The following items will not be processed, by default.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -24,8 +20,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Plugins (Uncomment to activate)
-# plugins:
-#   - jekyll-feed
-
-# 如果使用的是其他主题，可能还需要添加主题专用的配置选项。
+# Plugins
+# 如果你需要额外的Jekyll插件，可以在这里启用
+plugins:
+  - jekyll-feed                       # 例如：启用自动feed插件
