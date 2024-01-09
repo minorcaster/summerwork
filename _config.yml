@@ -4,7 +4,7 @@ description: 2023年高鹏工作摘要     # 一个简短的描述
 url: "https://minorcaster.github.io" # 网站URL，确保替换为你的GitHub用户名
 
 # Build settings
-remote_theme: pages-themes/slate      # 使用 Slate 主题
+remote_theme: pages-themes/minima      # 使用 Slate 主题
 
 # Slate theme settings
 # 此处可以添加适用于Slate主题的特定配置选项
